@@ -134,14 +134,13 @@ const Hero = () => {
             isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`}>
             <span className="eco-text-gradient inline-block">Breathe Better</span>
-            <span className="text-bengaluru-skyline block md:inline">, Bengaluru</span>
+            <span className="text-bengaluru-skyline block md:inline"> Bengaluru</span>
           </h1>
           
           <p className={`text-lg md:text-xl text-gray-700 mb-8 max-w-2xl mx-auto transition-all duration-1000 delay-300 transform ${
             isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`}>
-            Join the movement to transform our city's air quality by choosing 
-            eco-friendly commuting options. Together, we can make a difference.
+            Turn your daily commute into a green statement
           </p>
           
           <div className={`flex flex-col sm:flex-row justify-center gap-4 mb-12 transition-all duration-1000 delay-500 transform ${
